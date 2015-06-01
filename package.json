@@ -1,0 +1,26 @@
+{
+  "name": "angular-crud",
+  "version": "0.0.0",
+  "description": "Angular Crud",
+  "main": "dist",
+  "keywords": [
+    "angular",
+    "notify"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "scripts": {
+    "build": "scripts/build"
+  },
+  "author": "João Afonso Martins",
+  "license": "MIT",
+  "homepage": "https://github.com/joaoafrmartins/angular-crud",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/angular-crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/angular-crud/issues"
+  }
+}

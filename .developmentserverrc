@@ -1,0 +1,77 @@
+{
+  "root": "/home/ubuntu/_github/angular-crud",
+  "rcfile": "/home/ubuntu/_github/angular-crud/.developmentserverrc",
+  "views": {
+    "NotifyView": "notify",
+    "HttpServerView": "http",
+    "LiveReloadView": "livereload",
+    "BrowserView": "browser",
+    "TerminalView": "terminal",
+    "ShortcutsView": "shortcuts"
+  },
+  "livereload": {
+    "root": "/home/ubuntu/_github/angular-crud",
+    "port": 35729,
+    "timeout": 1000
+  },
+  "http": {
+    "root": "/home/ubuntu/_github/angular-crud",
+    "port": 8080,
+    "timeout": 1000,
+    "snippet": "\n<!-- livereload snippet -->\n\n<script src=\"http://localhost:35729/livereload.js\"></script>\n"
+  },
+  "specs": {
+    "root": "specs.html"
+  },
+  "browser": {
+    "tabs": [
+      {
+        "split": "right",
+        "title": "Preview",
+        "changeFocus": false,
+        "searchAllPanes": true,
+        "uri": "http://localhost:8080"
+      },
+      {
+        "split": "right",
+        "title": "Specs",
+        "changeFocus": false,
+        "searchAllPanes": true,
+        "uri": "http://localhost:8080/specs.html"
+      }
+    ]
+  },
+  "terminal": {
+    "title": "Terminal",
+    "split": "right",
+    "searchAllPanes": true,
+    "changeFocus": false,
+    "cwd": "/home/ubuntu/_github/angular-crud",
+    "shell": "/bin/bash"
+  },
+  "shortcuts": {
+    "subscriptions": {
+      "core:save": []
+    },
+    "actions": {
+      "install": "npm run install",
+      "build": "npm run build",
+      "git-gui": "npm run git-gui"
+    }
+  },
+  "notify": {
+    "timeout": 5000,
+    "timelapse": 750,
+    "animation": "notify",
+    "vertical": "top",
+    "horizontal": "right",
+    "global": true,
+    "alias": "console",
+    "levels": [
+      "error",
+      "warning",
+      "info",
+      "success"
+    ]
+  }
+}
